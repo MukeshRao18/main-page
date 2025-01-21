@@ -39,7 +39,7 @@ const KeyFeatures = () => {
             <div className='grid mx-[20%] md:mx-[15%] sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 {
                     features.map((feature, index) =>
-                        <div key={index} className={`p-2 bg-white rounded-md ${index % 2 != 0 ? '' : 'md:mt-[15%]'}`}>
+                        <div key={index} className={`p-2 bg-white rounded-md ${index % 2 !== 0 ? '' : 'md:mt-[15%]'}`}>
                             <div className='flex justify-center items-center py-2'>
                                 <div className="w-[20%] h-[20%]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"

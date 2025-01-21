@@ -4,7 +4,6 @@ import HowItWorks from './HomeDesign/HowItWorks';
 import Frequently from './HomeDesign/Frequently';
 import GetStarted from './HomeDesign/GetStarted';
 import Carousel from './HomeDesign/Carousel';
-import Features from './HomeDesign/Features';
 import Plan from './HomeDesign/Plan';
 import KeyFeatures from './HomeDesign/KeyFeatures';
 const Home = () => {
